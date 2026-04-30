@@ -125,7 +125,7 @@ const App = () => {
               <Terminal size={24} />
               DEV_TERMINAL
             </h1>
-            <div className="text-xs text-green-700 mt-2">v2.4.1-student</div>
+            <div className="text-xs text-green-700 mt-2">v3.0.0-developer</div>
             <div className="text-xs text-green-700 mt-1">
               STATUS: ONLINE<span className="animate-pulse">_</span>
             </div>
@@ -133,7 +133,7 @@ const App = () => {
               UPTIME: {currentTime.toLocaleTimeString()}
             </div>
             <div className="text-xs text-green-700 mt-1">
-              LAST_UPDATE: 2025-12-03T21:36:57.000Z
+              LAST_UPDATE: 30-Apr-2026 12:38 PM
             </div>
           </div>
 
@@ -221,22 +221,25 @@ const App = () => {
                       Hello, World.
                     </p>
                     <p>
-                      My journey into the digital realm began in childhood, where I was always drawn to solving challenges like code breaking and complex puzzles. This naturally evolved into building websites for family members as a hobby. JavaScript was the first language I truly learned, and it remains my "baby"—the tool I feel most at home with.
+                      My name is Shayne McNeil and I am a Freelance Full Stack Software Developer and IT Consultant based in Nova Scotia on the Atlantic coast of Canada. I specialize in the MERN stack but can bring the whole gamet of my skills to your business. Contact me to see what I can do for your business.
                     </p>
-                    <p>
-                      I often say my major weakness is that I get frustrated when I don't understand a topic. However, this frustration fuels an obsession where I put all my effort into mastering the subject—a trait that has proven invaluable in my studies and professional growth.
-                    </p>
-                    <p>
-                      Currently, I am expanding my toolkit in the IT Programming Diploma at NSCC with Java and Spring Boot. However, my career vector is locked on <strong>Full-Stack JavaScript development</strong>, specifically the MERN stack.
-                    </p>
-                    <p>
-                      I believe we are entering a golden age where AI is a powerful exoskeleton for developers—a tool to amplify creativity, not replace it. My long-term roadmap includes specialized consulting. If you have a problem that needs solving today, feel free to contact me.
-                    </p>
+                    <h1 style={{color: "white", fontWeight: "bold"}}> {'>'} Services</h1>
+                    <p>My services include (but are not limited to):</p>
+                    <ul>
+                      <li>Software Development</li>
+                      <li>Web Design</li>
+                      <li>IT Consulting</li>
+                      <li>IT Project Management</li>
+                      <li>Business and Systems Analysis</li>
+                      <li>Database Design</li>
+                      <li>Contracting</li>
+                      <li>IT Support</li>
+                    </ul>
                   </div>
                   <div className="mt-8 flex flex-wrap gap-4 text-sm font-bold">
                     <span className="px-3 py-1 border border-green-600">LOCATION: Remote / Canada</span>
                     <span className="px-3 py-1 border border-green-600">AVAILABILITY: Open for Work</span>
-                    <span className="px-3 py-1 border border-green-600">EXP_LEVEL: Student</span>
+                    <span className="px-3 py-1 border border-green-600">EXP_LEVEL: Freelance</span>
                   </div>
                </div>
             </section>
@@ -284,7 +287,7 @@ const App = () => {
             <section id="education">
               <SectionHeader title="Education_History" />
               <div className="w-full">
-                <TerminalCard title="Diploma in IT Programming" subtitle="Nova Scotia Community College (eCampus)" date="Sept 2024 - Apr 2026">
+                <TerminalCard title="Diploma in IT Programming" subtitle="Nova Scotia Community College (eCampus)" date="Sept 2024 - May 2026">
                    Focusing on full-stack application development, database management, and object-oriented programming.
                 </TerminalCard>
               </div>
@@ -295,6 +298,7 @@ const App = () => {
               <SectionHeader title="Licenses_&_Certifications" />
               <div className="grid gap-4">
                  {[
+                   {name: "Introduction to AI Literacy", issuer:  "Acadia University", date: "Mar 2026"},
                    { name: "Advanced Spring: Effective Integration Testing", issuer: "LinkedIn Learning", date: "Nov 2025" },
                    { name: "React Essential Training", issuer: "LinkedIn Learning", date: "Nov 2025" },
                    { name: "Java Testing with JUnit", issuer: "LinkedIn Learning", date: "Oct 2025" },
@@ -413,6 +417,18 @@ const App = () => {
                         </div>
                     </div>
                  </div>
+                 <div className="border border-green-900/50 bg-green-900/5 p-4 hover:border-green-500 transition-colors">
+                    <div className="flex items-start gap-3">
+                        <ChevronRight size={18} className="text-green-500 mt-1 flex-shrink-0" />
+                        <div>
+                            <h3 className="font-bold text-green-300 text-lg">Pulsar Launchpad 2025</h3>
+                            <div className="text-xs text-green-700 font-mono mt-1 mb-2">PROVIDER: Pulsar Institute</div>
+                            <p className="text-sm text-green-400/90 leading-relaxed">
+                                This 8-week long course focused on introducing post-secondary students across Canada to careers in the space industry. The format of this course followed a series of seminars by guests in the space industry and a Q&A section for networking.
+                            </p>
+                        </div>
+                    </div>
+                 </div>
                </div>
             </section>
 
@@ -420,8 +436,8 @@ const App = () => {
              <section id="organizations">
                <SectionHeader title="Affiliations" />
                <div className="w-full">
-                 <TerminalCard title="NSCC eCampus Student Association" subtitle="Student Representative" date="Sept 2024 - Present">
-                   Serving as the sole representative for the IT Programming Diploma cohort. Key responsibilities include participating in governance meetings to allocate funds for student activities, acting as a strategic liaison between the student body and administration, and advocating for the academic and social interests of my peers.
+                 <TerminalCard title="NSCC eCampus Student Association" subtitle="Student Representative and Bookkeper" date="Sept 2024 - Apr 2026">
+                   Serving as the sole representative for the IT Programming Diploma cohort. Key responsibilities include participating in governance meetings to allocate funds for student activities, acting as a strategic liaison between the student body and administration, and advocating for the academic and social interests of my peers. I also handled the association's financial records in my second year as bookkeeper handling bank reconciliations and budget tracking.
                  </TerminalCard>
                </div>
             </section>
